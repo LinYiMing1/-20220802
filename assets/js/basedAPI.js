@@ -3,7 +3,8 @@
 // 在这个函数中，可以拿到我们给Ajax提供的配置对象
 // $.ajax() > ajaxPrefilter过滤器 -> 发送请求给服务器
 
-const baseUrl = 'http://www.liulongbin.top:3007'
+// const baseUrl = 'http://www.liulongbin.top:3007'
+const baseUrl = 'http://big-event-api-t.itheima.net'
 
 $.ajaxPrefilter(option => {
   // 统一为有权限的接口，设置 headers 请求头
